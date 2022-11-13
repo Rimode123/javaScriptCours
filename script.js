@@ -54,7 +54,7 @@ if(pays =="Maroc"){
 _____________________________________________
 Les condition avec Switch 
 _____________________________________________
-*/
+
 
 var jour ="teletrav"
 
@@ -68,3 +68,27 @@ switch(jour){
     break;
 
 }
+*/
+/*
+_____________________________________________
+Les opérateurs de comparaison 
+_____________________________________________
+*/
+
+var age = 28;
+
+if(age == 28){
+    console.log("l'age est 28 ans");
+
+}else if(age > 28){
+    console.log("l'age est plus de 28 ans");
+}else if(age < 28){
+    console.log("l'age est moins de 28 ans");
+}
+
+// not equal
+/* var age = 18;
+if(age != 28){
+    console.log("l'age pas egale à 28");
+}*/
+
