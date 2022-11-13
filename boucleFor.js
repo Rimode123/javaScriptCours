@@ -2,7 +2,7 @@
 
 // for (start ; condition ; incrementation = i+1 )
 /*
-//Afficher la phrase 5 fois 
+//Afficher le message 5 fois 
 
 var i ;
 
