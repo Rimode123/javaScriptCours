@@ -18,4 +18,27 @@ console.log("la deuxieme ville est: "+second); */
 var size = ville.length ;
 console.log("il y a " +size +" villes dans le tableau");
 
+// Ajouter une ville 
+
+console.log(ville.push("lyon"));
+console.log("les villes est "+ ville);
+
+// Ajouter la ville au debut du tableau
+
+console.log(ville.unshift("lyon"));
+
+
+//savoir quel index la ville lille
+
+console.log(ville.indexOf("lille"));
+
+//Supprimer le dernier element dans le tableau 
+
+console.log(ville.pop());// SUPPRESSION DE LA VILLE LYON ==>DELETE THE LAST ITEM
+
+// DELETE THE FIRST ITEM ==> supprimer le premier element dans le tableau 
+
+console.log(ville.shift());
+
+
 
