@@ -40,5 +40,16 @@ console.log(ville.pop());// SUPPRESSION DE LA VILLE LYON ==>DELETE THE LAST ITEM
 
 console.log(ville.shift());
 
+//arr(5) // => [0,1,2,3,4]
+// 10 ====> [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+
+var n="10";
+
+var monkey = [];
+  for (i = 1; i <= n; i++) {
+    monkey.push(i);
+  }
+  console.log(monkey);
+
 
 
